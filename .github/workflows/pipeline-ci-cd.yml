@@ -84,7 +84,8 @@ jobs:
           password: ${{ secrets.VPS_PASSWORD }}
           
           script: | 
-            cd /home/user/session13/devops-script/frontend-app
+            cd /home/user/session13/devops-script/frontend-app/dev
+            
             sudo docker-compose pull 
             sudo docker-compose up -d --force-recreate --remove-orphans 
 
