@@ -84,7 +84,7 @@ jobs:
           password: ${{ secrets.VPS_PASSWORD }}
           
           script: | 
-            cd /home/user/frontend-app
+            cd /home/user/session13/devops-script/backend-api/dev
 
 
             sudo docker-compose pull 
